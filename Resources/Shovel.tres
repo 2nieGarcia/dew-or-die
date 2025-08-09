@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Tool" load_steps=3 format=3 uid="uid://d0soabjwpyidj"]
+
+[ext_resource type="Script" uid="uid://c0a4t5j32emxr" path="res://Scripts/Tool.gd" id="1_43gfl"]
+[ext_resource type="Texture2D" uid="uid://xu51neryfbbq" path="res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Basic_tools_and_meterials.png" id="2_cytsf"]
+
+[resource]
+script = ExtResource("1_43gfl")
+tool_name = "Shovel"
+tool_type = 2
+ui_icon = ExtResource("2_cytsf")
+animation_name = "use_shovel"
+usable_on_tiles = Array[int]([1, 5])
+converts_to_tiles = Array[int]([4, 1])

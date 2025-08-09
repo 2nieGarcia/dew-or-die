@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Tool" load_steps=3 format=3 uid="uid://cp8gh6utmlffp"]
+
+[ext_resource type="Script" uid="uid://c0a4t5j32emxr" path="res://Scripts/Tool.gd" id="1_sff73"]
+[ext_resource type="Texture2D" uid="uid://xu51neryfbbq" path="res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Basic_tools_and_meterials.png" id="2_w3d0j"]
+
+[resource]
+script = ExtResource("1_sff73")
+tool_name = "Hoe"
+tool_type = 3
+ui_icon = ExtResource("2_w3d0j")
+animation_name = "use_hoe"
+usable_on_tiles = Array[int]([4, 5])
+converts_to_tiles = Array[int]([5, 4])

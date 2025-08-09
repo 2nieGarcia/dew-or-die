@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Tool" load_steps=3 format=3 uid="uid://w3trhd65lrv2"]
+
+[ext_resource type="Script" uid="uid://c0a4t5j32emxr" path="res://Scripts/Tool.gd" id="1_52tmq"]
+[ext_resource type="Texture2D" uid="uid://xu51neryfbbq" path="res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Basic_tools_and_meterials.png" id="2_po50o"]
+
+[resource]
+script = ExtResource("1_52tmq")
+tool_name = "Watering Can"
+tool_type = 1
+ui_icon = ExtResource("2_po50o")
+animation_name = "use_watering_can"
+usable_on_tiles = Array[int]([5])
+converts_to_tiles = Array[int]([5])

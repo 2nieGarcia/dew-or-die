@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfskk018f22f8"]
+
+[ext_resource type="Script" uid="uid://bxcf86ptdvwcp" path="res://Scripts/ToolRack.gd" id="1_7yynd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7yynd"]
+size = Vector2(16, 16)
+
+[node name="ToolRack" type="StaticBody2D"]
+script = ExtResource("1_7yynd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_7yynd")
+debug_color = Color(0.165454, 0.59182, 0.700136, 0.42)
