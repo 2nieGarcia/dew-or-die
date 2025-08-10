@@ -1,7 +1,8 @@
-[gd_scene load_steps=20 format=3 uid="uid://bk4lcf37ro7qu"]
+[gd_scene load_steps=21 format=3 uid="uid://bk4lcf37ro7qu"]
 
 [ext_resource type="Texture2D" uid="uid://botxcrbsdkurs" path="res://Assets/Sprout Lands - Sprites - Basic pack/Characters/Basic Charakter Spritesheet.png" id="1_0y7nr"]
 [ext_resource type="Script" uid="uid://w31srojnx1rw" path="res://Scripts/player.gd" id="1_jo2ib"]
+[ext_resource type="Script" uid="uid://way318rn2ps4" path="res://Scripts/PlayerInventory.gd" id="3_677pu"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jo2ib"]
 atlas = ExtResource("1_0y7nr")
@@ -176,3 +177,6 @@ zoom = Vector2(3, 3)
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 target_position = Vector2(0, 24)
+
+[node name="PlayerInventory" type="Node" parent="."]
+script = ExtResource("3_677pu")
